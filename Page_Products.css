@@ -6,6 +6,22 @@ h2{
     color: white;
 }
 
+*{
+    margin: 0;
+    padding: 0;
+} 
+
+nav{
+    width: 100%;
+    height: 34.5vh;
+    position: fixed;
+    background-color: black;    
+}
+
+.cuadrado_blog_publicacion{
+    padding-top: 200px;
+}
+
 p{
     color: white;
     text-align: center;
@@ -23,11 +39,6 @@ span{
 
 header{
     background-color: black ;
-}
-
-*{
-    margin: 0;
-    padding: 0;
 }
 
 .logo_freepass{
@@ -151,4 +162,3 @@ footer a:hover {
 .enlaces{
     margin-left: 65px;
 }
-
