@@ -1,0 +1,154 @@
+body{
+    text-align: center;
+}
+
+h2{
+    color: white;
+}
+
+p{
+    color: white;
+    text-align: center;
+}
+
+
+span{
+    color: white;
+}
+
+.contenedor{
+    display: inline-flex;
+    align-items: center;
+}
+
+header{
+    background-color: black ;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.logo_freepass{
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
+.message7{
+    font-size: 20px;
+}
+
+.menu.menu{
+    font-size: 35px;
+}
+
+.carrito.carrito{
+    font-size: 35px;
+}
+
+.cuadrado_blog_publicacion{
+    display: inline-flex;
+}
+
+.blog_publicacion{
+    color: white;
+    display: flex;
+    justify-content: left;
+}
+
+input.email{
+    width: 500px;
+}
+
+input.guardar{
+    width: 150px;
+}
+
+.blog_publicacioon{
+    color: white;
+    display: flex;
+    justify-content: left;
+    margin-left: 200px;
+}
+
+footer{
+    margin: 0;
+    background-color: black;
+    color: white;
+    width: 1349px;
+}
+
+footer p{
+    float: center;
+}
+
+footer a{
+transition: color 0.3s ease;
+color: white;
+text-decoration: none;
+}
+
+footer a:hover {
+    color: rgb(0, 0, 0);
+}
+
+.logo{
+    width: 65x;
+    height: 65px;
+    background: url(IMG/LOGO.jpg);
+    background-position: center;
+    background-size: cover;
+    filter: drop-shadow(0px 7px 21px #35e911);
+    animation: rotar 5s linear infinite;
+    margin-left: 0px;
+}
+
+.logo:hover{
+    cursor: pointer;
+}
+
+@keyframes rotar{
+    from{
+        transform: rotateY(180deg);
+    }
+    to{
+        transform: rotateY(-180deg);
+    }
+}
+
+.logoo{
+    width: 65x;
+    height: 65px;
+    background-position: center;
+    background-size: cover;
+    filter: drop-shadow(0px 7px 21px #ffffff);
+    animation: rotar 5s linear infinite;
+    margin-left: 0px;
+}
+
+.cuotas{
+    color: black;
+    margin-left: 75px;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.boton{
+    margin-left: 75px;
+    height: 100px;
+    width: 100px;
+}
+
+
+.margen_cuadrado{
+    margin-left: 50px;
+    padding: 20px;
+    color: black;
+    border: 2px solid rgb(0, 0, 0);
+}
+
+.enlaces{
+    margin-left: 65px;
+}
+
